@@ -1,0 +1,80 @@
+https://code.visualstudio.com/download
+https://nodejs.org/en/
+https://github.com/
+
+Basic JavaScript
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJS-Mongo-Express)
+Third Party Api (Weather Api)
+Node-Es6(.babel)
+Redis  > 6379
+Oauth(with github)
+Github
+Login/Logout(JWT)
+MongoDb Basic >27017
+Api with NodeJS(Rest)
+DashBoard(Crud)
+Testing
+OO_NodeJs
+GraphQl API
+NodeJs with postgres
+Chatapp
+----Production----
+Nginx
+Docker
+Heroku
+Pm2
+Email With Node(sendgrid)
+
+
+-------NOT----
+UI Design (html css bootstrap react jquery)
+
+
+NodeJs is single thread Non block async I/0
+compile code in direct machine language
+Run over V8 Engine
+Open Source > Any body can contribute to development
+
+NPM > Node Package Manager
+
+///////////////////////////////////
+JSON > JavaScript Object Notation
+key value 
+{
+    name:'John',
+    class:1
+}
+
+Package.JSON
+> All Meta Data 
+    > Description, name, version ,author
+> All package we use
+> Script 
+    > start
+    > Testing
+
+///////////////////////
+Step to generate package.JSON
+/////////////////////
+** NodeJs must be installed in system
+> Go inside the folder where you want to generate using cmd/terminal
+> type npm init 
+> answer all question
+> type "yes"
+
+--------------------------------
+How to install packages
+-----------------------------
+Local dependency 
+Dev dependency 
+global dependency
+
+
+///////////////////////
+Step to install Local dependency 
+/////////////////////
+** NodeJs must be installed in system
+> Go inside the folder where you want to generate using cmd/terminal
+> npm i packagename
