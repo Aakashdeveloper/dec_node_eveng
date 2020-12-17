@@ -85,3 +85,10 @@ Step to install Local dependency
 ** NodeJs must be installed in system
 > Go inside the folder where you want to generate using cmd/terminal
 > npm i packagename --save-dev
+
+////////
+nodemon
+///////
+Global Package 
+
+npm i -g nodemon 
