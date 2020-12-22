@@ -1,0 +1,12 @@
+show dbs
+
+////to go inside dbs
+> use databasename
+
+> show collections
+
+////find the data 
+> db.collectionname.find()
+
+//only for console
+db.users.find().pretty()

@@ -92,3 +92,65 @@ nodemon
 Global Package 
 
 npm i -g nodemon 
+
+EJS 
+
+https://www.mongodb.com/try/download/community
+
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+
+//////
+step to setup mongodb
+/////
+
+> download mongodb
+> install
+> create one folder in c drive by name of data 
+> inside data folder create db folder 
+
+>>>>>>
+Step to run mongodb
+<<<<<<<
+open cmd
+> go inside folder
+> c:\programmfile\mongodb\server\4.4\bin 
+> type mongod  (it will start the mongodb server)
+    (port => 27017)
+
+> open new cmd
+> c:\programmfile\mongodb\server\4.4\bin 
+> type mongo (it will start the mongodb cli)
+
+
+sno | Hindi | English | computer
+1   |   80  |         |
+2   |       |  80     |
+3   |   80  |         |     80
+
+Sql          Nosql
+database    database
+table       collection
+row         document
+
+[
+    {
+        sno:1,
+        hindi:80
+    },
+    {
+        sno:2,
+        English:80
+    },
+    {
+        sno:2,
+        hindi:80,
+        computer:80
+    }
+]
+
