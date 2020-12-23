@@ -23,9 +23,24 @@ function router(menu){
           //res.send(hotels)
       });
 
-  hotelRouter.route('/details')
+  hotelRouter.route('/details/:id')
       .get(function(req,res){
-          res.send('Hotel Details')
+        //var id = req.params.id
+        var {id} = req.params
+        mongodb.connect(url,function(err,connection){
+          if(err){
+            res.status(501).send("Error While connecting")
+          }else{
+            const dbo = connection.db('octnode');
+              dbo.collection('hotels').findOne({_id:id},function(err,data){
+                if(err){
+                  res.status(501).send("Error While fetching")
+                }else{
+                  res.render('hotelDetails',{title:'Hotel Details Page',hoteldata:data,menu:menu})
+                }
+              })
+          }
+        })
       });
 
       return hotelRouter
